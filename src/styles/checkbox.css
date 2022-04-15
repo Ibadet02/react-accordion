@@ -1,0 +1,18 @@
+.input-box{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    width: fit-content;
+}
+input{
+    width: 20px;
+    height: 20px;
+    accent-color: blue;
+}
+label{
+    user-select: none;
+}
+input,label{
+    cursor: pointer;
+}

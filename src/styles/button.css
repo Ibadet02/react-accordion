@@ -1,0 +1,39 @@
+.button-text{
+    position: relative;
+    top: 0;
+    transition: .7s;
+    overflow: hidden;
+    font-family: "Source Sans Pro", sans-serif;
+    background: #eee;
+}
+.button-text.closed{
+    height: 0;
+}
+.button-text.open{
+    height: 4em;
+    padding: 5px 5px 0 5px;
+}
+.button-box:not(:nth-child(1)){
+    border-top: 1px solid black;
+    padding-top: 5%;
+}
+button{
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    transition: .5s;
+    font-weight: 600;
+}
+.buttonopen{
+    background: dodgerblue;
+}
+.buttonclosed:hover{
+    background: #ddd;
+}
+@media screen and (max-width: 606px){
+    .button-text.open{
+        height: 5em;
+    }
+}
